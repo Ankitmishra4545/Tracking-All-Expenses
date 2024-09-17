@@ -1,0 +1,46 @@
+/* Welcome Component Styles */
+
+/* Container Styles */
+.border-bottom {
+  border-bottom: 2px solid #3498db; /* Blue border bottom */
+  padding: 20px; /* Padding for spacing */
+  font-family: 'Poppins', sans-serif; /* Modern font */
+  font-size: 24px; /* Larger font size */
+  color: #333; /* Dark text color */
+}
+
+/* Content Styles */
+.d-flex {
+  display: flex;
+  align-items: center;
+}
+
+.p-3 {
+  padding: 15px; /* Padding for spacing */
+}
+
+.justify-content-between {
+  justify-content: space-between; /* Spacing between items */
+}
+
+/* Text Styles */
+p {
+  margin: 0; /* Remove default margin */
+  font-size: 20px; /* Font size */
+  color: #555; /* Dark gray text color */
+}
+
+span {
+  font-size: 18px; /* Font size */
+  color: #888; /* Light gray text color */
+}
+
+a {
+  color: #3498db; /* Blue link color */
+  text-decoration: none; /* Remove underlines */
+  transition: color 0.3s ease; /* Smooth transition */
+}
+
+a:hover {
+  color: #1e87d1; /* Darker blue on hover */
+}

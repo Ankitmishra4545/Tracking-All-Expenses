@@ -1,66 +1,81 @@
-h1{
-    text-align: center;
+h1 {
+  text-align: center;
+  color: #2c3e50; /* Darker color for the heading */
+  font-family: 'Poppins', sans-serif; /* Modern font */
 }
+
 .card {
-    background-color: #a49898;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    padding: 27px;
-    width: 267px;
-    margin: 0 auto;
-    margin-top: 2rem;
-  }
+  background-color: #ffffff; /* White background */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Slightly stronger shadow */
+  padding: 30px; /* Increased padding */
+  width: 300px; /* Adjusted width */
+  margin: 0 auto;
+  margin-top: 2rem;
+  border-radius: 8px; /* Rounded corners */
+}
 
-  .card label {
-    font-weight: bold;
-    margin-bottom: 5px;
-  }
+.card label {
+  font-weight: 600; /* Slightly lighter weight */
+  margin-bottom: 8px; /* More space */
+  color: #34495e; /* Darker color for better contrast */
+}
 
-  .card input {
-    width: 90%;
-    padding: 10px;
-    margin-bottom: 10px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-  }
+.card input {
+  width: 90%;
+  padding: 12px; /* Increased padding */
+  margin-bottom: 15px; /* More space */
+  border: 1px solid #bdc3c7; /* Lighter border */
+  border-radius: 6px; /* More rounded corners */
+}
 
-  .card input[type="submit"] {
-    background-color: #4CAF50;
-    color: white;
-    cursor: pointer;
-    width: 100%
-  }
-
-  .card input[type="submit"]:hover {
-    background-color: #45a049;
-  }
-
-  .btn{
-
-    color: rgb(15, 13, 13);
-    border: none;
-    padding: 10px 20px;
-    margin-top: 10px;
-    cursor: pointer;
-    font-size: 14px;
-    background-color: #eaf2eb;
+.card input[type="submit"] {
+  background-color: #3498db; /* Blue background */
+  color: white;
+  cursor: pointer;
   width: 100%;
-  }
-  .btn:hover {
-    background-color: #272f27;
-    color: aquamarine;
-  }
-  .btn-signup{
+  padding: 12px; /* Increased padding */
+  border: none;
+  border-radius: 6px; /* Rounded corners */
+  font-size: 16px; /* Slightly larger font size */
+  transition: background-color 0.3s ease; /* Smooth transition */
+}
 
-    color: rgb(241, 239, 239);
-    border: none;
-    padding: 10px 20px;
-    margin-top: 10px;
-    cursor: pointer;
-    font-size: 14px;
-    background-color: #04570e;
+.card input[type="submit"]:hover {
+  background-color: #2980b9; /* Darker blue on hover */
+}
+
+.btn {
+  color: white; /* White text */
+  border: none;
+  padding: 12px; /* Increased padding */
+  margin-top: 10px;
+  cursor: pointer;
+  font-size: 16px; /* Larger font size */
+  background-color: #1abc9c; /* Teal background */
   width: 100%;
-  }
-  .btn-signup:hover {
-    background-color: #200eba;
-    color: rgb(237, 235, 243);
-  }
+  border-radius: 6px; /* Rounded corners */
+  transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition */
+}
+
+.btn:hover {
+  background-color: #16a085; /* Darker teal on hover */
+  color: #ecf0f1; /* Light text color on hover */
+}
+
+.btn-signup {
+  color: white; /* White text */
+  border: none;
+  padding: 12px; /* Increased padding */
+  margin-top: 10px;
+  cursor: pointer;
+  font-size: 16px; /* Larger font size */
+  background-color: #e67e22; /* Orange background */
+  width: 100%;
+  border-radius: 6px; /* Rounded corners */
+  transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition */
+}
+
+.btn-signup:hover {
+  background-color: #d35400; /* Darker orange on hover */
+  color: #fdfbfb; /* Very light text color on hover */
+}
